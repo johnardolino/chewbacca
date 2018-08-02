@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Chewbacca </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+  <body class="dropline">
+
+    <div class="header">
+      <a href="images/im_waiting.jpeg" alt= "Picture of Chewbacca saying, sup?" class="logo">Contact</a>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">Discover</a>
+            <a class="active" href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
+      <form action="mailto:johnardolino@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="email">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email..">
+        <label for="planet">Planet</label>
+          <select id="country" name="country">
+            <option value="kashyyyk">Kashyyyk</option>
+            <option value="coruscant">Coruscant</option>
+            <option value="death star">Death Star</option>
+            <option value="earth">Earth</option>
+            <option value="endor">Endor</option>
+            <option value="tattooine">Tattooine</option>
+          </select>
+        <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Drop Chewie a line.." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="footer">
+      <p id="tinyfoot">This website was made by John Ardolino 2018</p>
+    </div>
+
+  </body>
+</html>
