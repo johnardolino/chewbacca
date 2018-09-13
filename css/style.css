@@ -3,13 +3,13 @@
 * {box-sizing: border-box;}
 
 body {
-   background-image: url("https://vignette.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png/revision/latest?cb=20171231005834");
-   background-color: #cccccc;
+  background-image: url("https://vignette.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png/revision/latest?cb=20171231005834");
+  background-color: #cccccc;
    /*background-size: 100%;*/
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-     -o-background-size: cover;
-        background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  	/*background-size: 90%;  */    
 }
 
@@ -28,15 +28,13 @@ body {
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
-  font-family: "Montserrat";
-  
+  font-family: "Montserrat";  
 }
 
 .header a.logo {
   font-size: 3em;
   font-weight: bold;
-  font-family: "Montserrat";
-  
+  font-family: "Montserrat";  
 }
 
 .header a.logo:hover {
@@ -53,9 +51,9 @@ body {
   background-color: #D89000;
   color: white;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -93,64 +91,64 @@ body {
 }
 
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 input[type=submit] {
-    background-color: white;
-    color: orange;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: white;
+  color: orange;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 input[type=submit]:hover {
-	  background-color: #FFC042;
-    color: white;
+	background-color: #FFC042;
+  color: white;
 }
 
 .container {
-	  margin-top: 5em;
-    border-radius: 5px;
-    background-color: rgba(255, 192, 66, 0.8);
-    padding: 20px;
+	margin-top: 5em;
+  border-radius: 5px;
+  background-color: rgba(255, 192, 66, 0.8);
+  padding: 20px;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    background-color: white;
-    padding: 10px;
-    margin-top: 5em;
-    margin-bottom: 7em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 5em;
+  margin-bottom: 7em;
 }
+
 .grid-container > div {
-  
-    background-color: rgba(255, 192, 66, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-    color: #020100;
-    font-family: "Montserrat";
+  background-color: rgba(255, 192, 66, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  color: #020100;
+  font-family: "Montserrat";
 }
 
 .img-home {
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .img-home:hover {
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 #contact_id {
@@ -158,30 +156,30 @@ input[type=submit]:hover {
 }
 
 #box{
-    border: 1px solid #D89000;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
-    background: rgba(200, 200, 200, 0.1);
-    border-radius: 4px;
-    top:50px;
+  border: 1px solid #D89000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+  background: rgba(200, 200, 200, 0.1);
+  border-radius: 4px;
+  top:50px;
 }
 
 #dischew {
-  	color: white;
-  	font-family: "Do Hyeon";
-  	font-size: 3em;
-  	letter-spacing: 1em;
-  	font-weight: bold;
+  color: white;
+  font-family: "Do Hyeon";
+  font-size: 3em;
+  letter-spacing: 1em;
+  font-weight: bold;
 }
 
 .footer {
-   position: static;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: #FFFAF2;
-   text-align: center;
-   margin-top: 8em;
-   margin-bottom: 2em;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #FFFAF2;
+  text-align: center;
+  margin-top: 8em;
+  margin-bottom: 2em;
 }
 
 .footer p {
@@ -194,38 +192,32 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 843px) {
-
   .grid-container {
     display: block;
   }
  } 
 
  @media screen and (max-width: 566px){
-
   .header a {
     float: none;
     display: block;
     text-align: left;
   }
-
   .header-right {
     float: none;
   }
  } 
 
 @media screen and (max-width: 454px){
-
- .header a.active {
-  background-color: transparent;
-  color: white;
-  -webkit-animation: none !important;
-}
-
-.header-right {
-  float: none;
-  margin-top: 1em;
-
-}
+  .header a.active {
+    background-color: transparent;
+    color: white;
+    -webkit-animation: none !important;
+  }
+  .header-right {
+    float: none;
+    margin-top: 1em;
+  }
 
 }
 
